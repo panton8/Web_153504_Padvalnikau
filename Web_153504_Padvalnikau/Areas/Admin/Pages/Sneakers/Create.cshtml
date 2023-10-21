@@ -1,0 +1,65 @@
+﻿@page
+@model Web_153504_Padvalnikau.Areas.Admin.Pages.Sneakers.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+    var categories = ViewData["categories"] as List<Category>;
+}
+
+<h1>Create</h1>
+
+<h4>Sneaker</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Sneaker.Name" class="control-label">Name</label>
+                <input asp-for="Sneaker.Name" class="form-control" />
+                <span asp-validation-for="Sneaker.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sneaker.Description" class="control-label">Description</label>
+                <input asp-for="Sneaker.Description" class="form-control" />
+                <span asp-validation-for="Sneaker.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sneaker.CategoryId">Category</label>
+                <select asp-for="Sneaker.CategoryId"
+                        asp-items="@(new SelectList(categories, "Id", "Name"))"class="form-control">
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sneaker.Price" class="control-label">Price</label>
+                <input asp-for="Sneaker.Price" class="form-control" />
+                <span asp-validation-for="Sneaker.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                            <label asp-for="@Model.Image">Image</label>
+                            <div class="input-group" asp-for="@Model.Image">
+                                <input type="file" class="form-control" asp-for="@Model.Image" accept="image/*">
+                                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<div>
+    <a class="btn btn-sm btn-outline-dark"
+       asp-page="Index">
+        <i class="fa-solid fa-arrow-left text-white"></i>
+        Back to list
+    </a>
+</div>
+
+@section Scripts {
+    <a href="D:\bsuir\III\5сем\СППР\1\Web_153504_Padvalnikau\Web_153504_Padvalnikau\Areas\Admin\Pages\Sneakers\Create.cshtml.cs">D:\bsuir\III\5сем\СППР\1\Web_153504_Padvalnikau\Web_153504_Padvalnikau\Areas\Admin\Pages\Sneakers\Create.cshtml.cs</a>
+    <a href="D:\bsuir\III\5сем\СППР\1\Web_153504_Padvalnikau\Web_153504_Padvalnikau\Areas\Admin\Pages\Sneakers\Create.cshtml">D:\bsuir\III\5сем\СППР\1\Web_153504_Padvalnikau\Web_153504_Padvalnikau\Areas\Admin\Pages\Sneakers\Create.cshtml</a>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

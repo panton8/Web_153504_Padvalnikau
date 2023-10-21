@@ -1,0 +1,48 @@
+﻿@page
+@model Web_153504_Padvalnikau.Areas.Admin.Pages.Sneakers.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Pizza</h4>
+    <table class="table">
+        <tbody>
+        <tr>
+            <th scope="row">Name</th>
+            <td>@Model.Sneaker.Name</td>
+        </tr>
+        <tr>
+            <th scope="row">Description</th>
+            <td>@Model.Sneaker.Description</td>
+        </tr>
+        <tr>
+            <th scope="row">Price</th>
+            <td>@Model.Sneaker.Price</td>
+        </tr>
+        <tr>
+            <th scope="row">Image</th>
+            <td>
+                <img src="@Model.Sneaker.Image" />
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">Category</th>
+            <td>@Model.Sneaker.CategoryId</td>
+        </tr>
+        </tbody>
+    </table>
+    <form method="post">
+        <input type="hidden" asp-for="Sneaker.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+    </form>
+    <a class="btn btn-sm btn-outline-dark"
+       asp-page="Index">
+        <i class="fa-solid fa-arrow-left text-white"></i>
+        Back to list
+    </a>
+</div>

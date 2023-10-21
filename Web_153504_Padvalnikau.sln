@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_153504_Padvalnikau", "Web_153504_Padvalnikau\Web_153504_Padvalnikau.csproj", "{2E578375-EB18-453E-97CF-880895E05316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_153504_Padvalnikau.Domain", "Web_153504_Padvalnikau.Domain\Web_153504_Padvalnikau.Domain.csproj", "{29964ACE-EDB9-4EDE-BDBC-F20B07AF8C57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_153504_Padvalnikau.API", "Web_153504_Padvalnikau.API\Web_153504_Padvalnikau.API.csproj", "{4627638D-6709-45B2-9BFD-C3C73A7F452A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_153504_Padvalnikau.IdentityServer", "Web_153504_Padvalnikau.IdentityServer\Web_153504_Padvalnikau.IdentityServer.csproj", "{CFB2F54D-FE55-46D9-B5B3-7BFA88518861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E578375-EB18-453E-97CF-880895E05316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E578375-EB18-453E-97CF-880895E05316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E578375-EB18-453E-97CF-880895E05316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E578375-EB18-453E-97CF-880895E05316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29964ACE-EDB9-4EDE-BDBC-F20B07AF8C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29964ACE-EDB9-4EDE-BDBC-F20B07AF8C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29964ACE-EDB9-4EDE-BDBC-F20B07AF8C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29964ACE-EDB9-4EDE-BDBC-F20B07AF8C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4627638D-6709-45B2-9BFD-C3C73A7F452A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4627638D-6709-45B2-9BFD-C3C73A7F452A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4627638D-6709-45B2-9BFD-C3C73A7F452A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4627638D-6709-45B2-9BFD-C3C73A7F452A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB2F54D-FE55-46D9-B5B3-7BFA88518861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB2F54D-FE55-46D9-B5B3-7BFA88518861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB2F54D-FE55-46D9-B5B3-7BFA88518861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB2F54D-FE55-46D9-B5B3-7BFA88518861}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

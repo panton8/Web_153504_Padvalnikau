@@ -1,0 +1,337 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Web_153504_Padvalnikau.API.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Web_153504_Padvalnikau.API.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\basket2.jpg",
+      "PackagePath": "staticwebassets\\images\\basket2.jpg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\basket3.jpg",
+      "PackagePath": "staticwebassets\\images\\basket3.jpg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\basket4.jpg",
+      "PackagePath": "staticwebassets\\images\\basket4.jpg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\casual2.jpg",
+      "PackagePath": "staticwebassets\\images\\casual2.jpg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\casual3.jpg",
+      "PackagePath": "staticwebassets\\images\\casual3.jpg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\casual4.jpg",
+      "PackagePath": "staticwebassets\\images\\casual4.jpg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\default-profile-picture.png",
+      "PackagePath": "staticwebassets\\images\\default-profile-picture.png"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\new_b_1.jpeg",
+      "PackagePath": "staticwebassets\\images\\new_b_1.jpeg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\rphmeuts.jpeg",
+      "PackagePath": "staticwebassets\\images\\rphmeuts.jpeg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\run2.jpg",
+      "PackagePath": "staticwebassets\\images\\run2.jpg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\run3.jpg",
+      "PackagePath": "staticwebassets\\images\\run3.jpg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\run4.jpg",
+      "PackagePath": "staticwebassets\\images\\run4.jpg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\tennis2.jpg",
+      "PackagePath": "staticwebassets\\images\\tennis2.jpg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\tennis3.jpg",
+      "PackagePath": "staticwebassets\\images\\tennis3.jpg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\tennis4.jpg",
+      "PackagePath": "staticwebassets\\images\\tennis4.jpg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\tour1.jpg",
+      "PackagePath": "staticwebassets\\images\\tour1.jpg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\tour2.jpg",
+      "PackagePath": "staticwebassets\\images\\tour2.jpg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\images\\tour3.jpg",
+      "PackagePath": "staticwebassets\\images\\tour3.jpg"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Web_153504_Padvalnikau.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Web_153504_Padvalnikau.API.props",
+      "PackagePath": "build\\Web_153504_Padvalnikau.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Web_153504_Padvalnikau.API.props",
+      "PackagePath": "buildMultiTargeting\\Web_153504_Padvalnikau.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Web_153504_Padvalnikau.API.props",
+      "PackagePath": "buildTransitive\\Web_153504_Padvalnikau.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

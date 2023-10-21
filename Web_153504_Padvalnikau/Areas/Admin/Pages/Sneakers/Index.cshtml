@@ -1,0 +1,97 @@
+﻿@page
+@model Web_153504_Padvalnikau.Areas.Admin.Pages.Sneakers.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    int prev = Model.Sneaker.CurrentPage == 1 ? 1 : Model.Sneaker.CurrentPage - 1;
+    int next = Model.Sneaker.CurrentPage == Model.Sneaker.TotalPages ? Model.Sneaker.TotalPages : Model.Sneaker.CurrentPage + 1;
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-dark btn-block ml-4">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Sneaker.Items[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sneaker.Items[0].Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sneaker.Items[0].CategoryId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sneaker.Items[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sneaker.Items[0].Price)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Sneaker.Items)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    <img src="@item.Image" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CategoryId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    <div class="d-flex flex-column justify-content-center align-middle">
+                        <a class="btn btn-outline-warning btn-block" asp-page="/Sneakers/Edit" asp-route-id="@item.Id">Edit</a>
+                        <a class="btn btn-outline-info btn-block" asp-page="/Sneakers/Details" asp-route-id="@item.Id">More details</a>
+                        <a class="btn btn-outline-danger btn-block" asp-page="/Sneakers/Delete" asp-route-id="@item.Id">Delete</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<nav>
+    <ul class="pagination justify-content-center">
+        <li class="page-item @(Model.Sneaker.CurrentPage == 1 ? "disabled" : "active")">
+            <a asp-area="Admin" asp-page="/Sneakers/Index" asp-route-pageNo="@prev" class="page-link">&laquo;</a>
+        </li>
+        @for (var num = 1; num <= Model.Sneaker.TotalPages; num += 1)
+        {
+            <li class="page-item @(num.Equals(Model.Sneaker.CurrentPage)  ? "active" : "")">
+                <a class="page-link" asp-area="Admin" asp-page="/Sneakers/Index" asp-route-pageNo="@num">@num</a></li>
+        }
+        <li class="page-item @(Model.Sneaker.CurrentPage==Model.Sneaker.TotalPages ? "disabled" : "active")">
+            <a class="page-link" asp-area="Admin" asp-page="/Sneaker/Index" asp-route-pageNo="@next">&raquo;</a>
+        </li>
+    </ul>
+</nav>
+
+<style>
+    td img {
+        height: 200px;
+        object-fit: contain;
+    }
+
+    .page-item.active .page-link {
+        background-color: cornflowerblue;
+        border-color: cornflowerblue;
+    }
+
+    .page-link {
+        color: cornflowerblue;
+    }
+</style>
