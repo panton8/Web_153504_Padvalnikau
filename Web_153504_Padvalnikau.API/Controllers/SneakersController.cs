@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Web_153504_Padvalnikau.API.Services.ProductService;
 using Web_153504_Padvalnikau.Domain.Entities;
@@ -21,6 +22,7 @@ namespace Web_153504_Padvalnikau.API.Controllers
         [HttpGet("{category}")]
         [HttpGet("page{pageNo:int}")]
         [HttpGet("{category}/page{pageNo:int}")]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<Sneaker>>> GetSneakers(string? category, int pageNo = 1, int pageSize = 3)
         {
             var response = await _sneakersService.GetSneakerListAsync(category, pageNo, pageSize);
@@ -29,6 +31,7 @@ namespace Web_153504_Padvalnikau.API.Controllers
 
         // GET: api/Sneakers/5
         [HttpGet("{id:int}")]
+        [AllowAnonymous]
         public async Task<ActionResult<Sneaker>> GetSneaker(int id)
         {
             var response = await _sneakersService.GetByIdAsync(id);
@@ -43,6 +46,7 @@ namespace Web_153504_Padvalnikau.API.Controllers
         // PUT: api/Sneakers/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> PutSneaker(int id, Sneaker sneaker)
         {
             await _sneakersService.UpdateAsync(id, sneaker);
@@ -53,6 +57,7 @@ namespace Web_153504_Padvalnikau.API.Controllers
         // POST: api/Sneakers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<Sneaker>> PostSneaker(Sneaker sneaker)
         {
             var response = await _sneakersService.CreateAsync(sneaker);
@@ -62,6 +67,7 @@ namespace Web_153504_Padvalnikau.API.Controllers
         
         // POST: api/ProductController/5
         [HttpPost("{id}")]
+        [Authorize]
 
         public async Task<ActionResult<ResponseData<string>>> PostImage(int id, IFormFile formFile) 
         {
@@ -75,6 +81,7 @@ namespace Web_153504_Padvalnikau.API.Controllers
 
         // DELETE: api/Sneakers/5
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteSneaker(int id)
         {
             await _sneakersService.DeleteAsync(id);

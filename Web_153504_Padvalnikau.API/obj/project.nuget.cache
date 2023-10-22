@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4IlQuwphHmgUXrvf984HK5syWsWuo/KN3VzAlT0cIbl6GRbRYEfw99r71GBQE1eTn2+5tCdyw7lbJvJ6meXhyw==",
+  "dgSpecHash": "/WgGmS3SRG/2/mYyOwYA2+d59uJfT6goOG9FK50KxbD82G45DgdOfAz6qhnNuEB1qJiwTv4nK5ho9xieAnP1eg==",
   "success": true,
   "projectFilePath": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.API\\Web_153504_Padvalnikau.API.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\podva\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\podva\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\podva\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\podva\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.12\\microsoft.aspnetcore.authentication.jwtbearer.7.0.12.nupkg.sha512",
     "C:\\Users\\podva\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\podva\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\podva\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",

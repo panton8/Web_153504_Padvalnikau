@@ -1,6 +1,8 @@
 ﻿using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
+using Microsoft.AspNetCore.Authentication;
 using Web_153504_Padvalnikau.Domain.Entities;
 using Web_153504_Padvalnikau.Domain.Models;
 
@@ -8,12 +10,13 @@ namespace Web_153504_Padvalnikau.Services.ProductService;
 
 public class ApiProductService : IProductService
 {
-   private HttpClient _httpClient;
+        private HttpClient _httpClient;
         private string? _pageSize;
         private JsonSerializerOptions _serializerOptions;
         private ILogger<ApiProductService> _logger;
+        private HttpContext? _httpContext;
 
-        public ApiProductService(HttpClient httpClient, IConfiguration configuration, ILogger<ApiProductService> logger)
+        public ApiProductService(HttpClient httpClient, IConfiguration configuration, ILogger<ApiProductService> logger, IHttpContextAccessor httpContextAccessor)
         {
             _httpClient = httpClient;
             _pageSize = configuration.GetSection("ItemsPerPage").Value;
@@ -22,10 +25,12 @@ public class ApiProductService : IProductService
                 PropertyNamingPolicy = JsonNamingPolicy.CamelCase
             };
             _logger = logger;
+            _httpContext = httpContextAccessor.HttpContext;
         }
 
         public async Task<ResponseData<Sneaker>> CreateAsync(Sneaker sneaker, IFormFile? formFile)
         {
+            AddTokenToHeader();
             var uri = new Uri(_httpClient.BaseAddress.AbsoluteUri + "Sneakers");
             var response = await _httpClient.PostAsJsonAsync(uri, sneaker, _serializerOptions);
             if (response.IsSuccessStatusCode)
@@ -42,9 +47,11 @@ public class ApiProductService : IProductService
             };
         }
 
-        public Task DeleteAsync(int id)
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            AddTokenToHeader();
+            var urlString = new StringBuilder($"{_httpClient.BaseAddress!.AbsoluteUri}sneakers/{id}");
+            await _httpClient.DeleteAsync(urlString.ToString());
         }
 
         public async Task<ResponseData<Sneaker>> GetByIdAsync(int id)
@@ -64,6 +71,8 @@ public class ApiProductService : IProductService
 
         public async Task<ResponseData<ListModel<Sneaker>>> GetSneakerListAsync(string? categoryNormalizedName, int pageNo = 1)
         {
+            AddTokenToHeader();
+            
             var urlString = new StringBuilder($"{_httpClient.BaseAddress.AbsoluteUri}sneakers/");
 
             if (categoryNormalizedName != null)
@@ -106,6 +115,7 @@ public class ApiProductService : IProductService
 
         public async Task UpdateAsync(int id, Sneaker sneaker, IFormFile? formFile)
         {
+            AddTokenToHeader();
             var urlString = new StringBuilder($"{_httpClient.BaseAddress!.AbsoluteUri}sneakers/{id}");
             await _httpClient.PutAsJsonAsync(urlString.ToString(), sneaker, _serializerOptions);
 
@@ -117,6 +127,7 @@ public class ApiProductService : IProductService
         
         private async Task SaveImageAsync(int id, IFormFile image)
         {
+            AddTokenToHeader();
             var request = new HttpRequestMessage
             {
                 Method = HttpMethod.Post,
@@ -127,5 +138,11 @@ public class ApiProductService : IProductService
             content.Add(streamContent, "formFile", image.FileName);
             request.Content = content;
             await _httpClient.SendAsync(request);
+        }
+        
+        private async void AddTokenToHeader()
+        {
+            var token = await _httpContext.GetTokenAsync("access_token");
+            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", token);
         }
 }

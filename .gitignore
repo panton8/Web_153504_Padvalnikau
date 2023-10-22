@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Excluding debug files which should not be in source control
+**/obj/**
+*.AssemblyReference.cache
+rider.project.model.nuget.info
