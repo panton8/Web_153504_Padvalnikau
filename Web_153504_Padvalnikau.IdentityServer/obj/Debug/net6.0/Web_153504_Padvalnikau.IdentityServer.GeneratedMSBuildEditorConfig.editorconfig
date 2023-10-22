@@ -32,6 +32,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXRcTG9nZ2VkT3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/bsuir/III/5сем/СППР/1/Web_153504_Padvalnikau/Web_153504_Padvalnikau.IdentityServer/Pages/Account/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3RlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bsuir/III/5сем/СППР/1/Web_153504_Padvalnikau/Web_153504_Padvalnikau.IdentityServer/Pages/Account/Register/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3RlclxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/bsuir/III/5сем/СППР/1/Web_153504_Padvalnikau/Web_153504_Padvalnikau.IdentityServer/Pages/Ciba/All.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2liYVxBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -98,6 +106,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/bsuir/III/5сем/СППР/1/Web_153504_Padvalnikau/Web_153504_Padvalnikau.IdentityServer/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/bsuir/III/5сем/СППР/1/Web_153504_Padvalnikau/Web_153504_Padvalnikau.IdentityServer/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/bsuir/III/5сем/СППР/1/Web_153504_Padvalnikau/Web_153504_Padvalnikau.IdentityServer/Pages/Shared/_Nav.cshtml]

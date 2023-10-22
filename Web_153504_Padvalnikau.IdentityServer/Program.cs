@@ -1,5 +1,8 @@
-﻿using Web_153504_Padvalnikau.IdentityServer;
+using Web_153504_Padvalnikau.IdentityServer;
 using Serilog;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Web_153504_Padvalnikau.IdentityServer.Data;
 
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
@@ -27,7 +30,7 @@ try
     //if (args.Contains("/seed"))
     //{
         Log.Information("Seeding database...");
-        SeedData.EnsureSeedData(app);
+        await SeedData.EnsureSeedData(app);
         Log.Information("Done seeding database. Exiting.");
       //  return;
     //}
@@ -49,3 +52,4 @@ finally
     Log.Information("Shut down complete");
     Log.CloseAndFlush();
 }
+

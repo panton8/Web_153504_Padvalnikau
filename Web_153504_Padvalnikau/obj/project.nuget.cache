@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HmoXEEp5a0tgt9nOILFr/zOHzBUXuYslWugpKokzA7QHQEz5Cyr/41CM5uHQPMCnW1UMC05ChK4K0lnFNAVsRQ==",
+  "dgSpecHash": "UUQ5dJOd+u+9QUDsl/P1KthF6LOuwPPMf+S8hgd70Ezq+xdDZW4ZF3uDUX3mKuEy/E8eb/LASo2L1iDzYW9I8A==",
   "success": true,
   "projectFilePath": "D:\\bsuir\\III\\5сем\\СППР\\1\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau\\Web_153504_Padvalnikau.csproj",
   "expectedPackageFiles": [
@@ -57,6 +57,8 @@
     "C:\\Users\\podva\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\podva\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\podva\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\podva\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.12\\microsoft.aspnetcore.authentication.jwtbearer.7.0.12.nupkg.sha512",
+    "C:\\Users\\podva\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\7.0.12\\microsoft.aspnetcore.authentication.openidconnect.7.0.12.nupkg.sha512",
     "C:\\Users\\podva\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\podva\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\podva\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",

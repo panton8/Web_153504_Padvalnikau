@@ -506,3 +506,5 @@ D:\bsuir\III\5сем\СППР\1\Web_153504_Padvalnikau\Web_153504_Padvalnikau\bi
 D:\bsuir\III\5сем\СППР\1\Web_153504_Padvalnikau\Web_153504_Padvalnikau\bin\Debug\net7.0\Web_153504_Padvalnikau.API.dll
 D:\bsuir\III\5сем\СППР\1\Web_153504_Padvalnikau\Web_153504_Padvalnikau\bin\Debug\net7.0\Web_153504_Padvalnikau.API.pdb
 D:\bsuir\III\5сем\СППР\1\Web_153504_Padvalnikau\Web_153504_Padvalnikau\obj\Debug\net7.0\Web_153504_Padvalnikau.MvcApplicationPartsAssemblyInfo.cs
+D:\bsuir\III\5сем\СППР\1\Web_153504_Padvalnikau\Web_153504_Padvalnikau\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\bsuir\III\5сем\СППР\1\Web_153504_Padvalnikau\Web_153504_Padvalnikau\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
