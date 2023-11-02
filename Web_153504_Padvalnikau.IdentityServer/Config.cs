@@ -41,8 +41,8 @@ public static class Config
 
                 AllowedGrantTypes = GrantTypes.Code,
 
-                RedirectUris = { "http://localhost:7001/signin-oidc" },
-                FrontChannelLogoutUri = "http://localhost:7001/signout-oidc",
+                RedirectUris = { "https://localhost:7001/signin-oidc" },
+                FrontChannelLogoutUri = "https://localhost:7001/signout-oidc",
                 PostLogoutRedirectUris = { "https://localhost:7001/signout-callback-oidc" },
 
                 AllowOfflineAccess = true,

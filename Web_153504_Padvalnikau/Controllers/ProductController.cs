@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Web_153504_Padvalnikau.Services.CategoryService;
 using Web_153504_Padvalnikau.Services.ProductService;
-using Web_153504_Padvalnikau.Domain.Entities;
+using Web_153504_Padvalnikau.Extensions;
 
 namespace Web_153504_Padvalnikau.Controllers;
 
@@ -22,13 +22,20 @@ public class ProductController : Controller
         
         ViewBag.CurrentCategory = category;
 
-        var carModelResponse = await _service.GetSneakerListAsync(category, pageNo);
+        var sneakerResponse = await _service.GetSneakerListAsync(category, pageNo);
 
-        if (!carModelResponse.Success)
-            return NotFound(carModelResponse.ErrorMessage);
+        if (!sneakerResponse.Success)
+            return NotFound(sneakerResponse.ErrorMessage);
         
         ViewBag.Categories = (await _category.GetCategoryListAsync()).Data;
 
-        return View(carModelResponse.Data);
+        string s = Request.Headers["x-requested-with"].ToString();
+
+        if (Request.IsAjaxRequest())
+            return PartialView(sneakerResponse.Data);
+        else
+        {
+            return View(sneakerResponse.Data);   
+        }
     }
 }
