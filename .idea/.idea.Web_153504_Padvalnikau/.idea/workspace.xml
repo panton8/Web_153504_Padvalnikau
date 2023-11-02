@@ -13,7 +13,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821c8228-18b5-48b0-8906-e8538dba1cbe" name="Changes" comment="" />
+    <list default="true" id="821c8228-18b5-48b0-8906-e8538dba1cbe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/MenuDb.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/MenuDb.db-wal" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
