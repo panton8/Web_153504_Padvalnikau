@@ -1,0 +1,32 @@
+@{
+    var request = ViewContext.HttpContext.Request;
+    var returnUrl = request.Path + request.QueryString.ToUriComponent();
+
+    int currentPage = Model.CurrentPage;
+    int totalPages = Model.TotalPages;
+}
+
+<!-- Список -->
+<div class="col-10">
+    <div class="content">
+        <div class="row">
+            @foreach (var item in Model.Items)
+            {
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                            <img src="@item.Image"/>
+                            <p class="card-text"> @item.Description</p>
+                            <p class="card-text">@item.Price$</p>
+                            <a class="btn btn-outline-secondary"style="color: blue" asp-action="Add" asp-route-id="@item.Id" asp-controller="Cart" asp-route-returnUrl="@returnUrl">Add to cart <span class="fa-solid fa-cart-shopping" style="color: blue"></span></a>
+                        </div>
+                    </div>
+                </div>
+            }             
+        </div>
+    </div>
+    </div>
+
+<!-- Кнопки переключения страниц -->
+<pager current-page="@currentPage" total-pages="@totalPages" category="@ViewBag.CurrentCategory"></pager>

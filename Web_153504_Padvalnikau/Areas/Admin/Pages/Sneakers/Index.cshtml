@@ -3,6 +3,9 @@
 
 @{
     ViewData["Title"] = "Index";
+    int currentPage = Model.Sneaker.CurrentPage;
+    int totalPages = Model.Sneaker.TotalPages;
+    
     int prev = Model.Sneaker.CurrentPage == 1 ? 1 : Model.Sneaker.CurrentPage - 1;
     int next = Model.Sneaker.CurrentPage == Model.Sneaker.TotalPages ? Model.Sneaker.TotalPages : Model.Sneaker.CurrentPage + 1;
 }
@@ -64,34 +67,4 @@
     </tbody>
 </table>
 
-<nav>
-    <ul class="pagination justify-content-center">
-        <li class="page-item @(Model.Sneaker.CurrentPage == 1 ? "disabled" : "active")">
-            <a asp-area="Admin" asp-page="/Sneakers/Index" asp-route-pageNo="@prev" class="page-link">&laquo;</a>
-        </li>
-        @for (var num = 1; num <= Model.Sneaker.TotalPages; num += 1)
-        {
-            <li class="page-item @(num.Equals(Model.Sneaker.CurrentPage)  ? "active" : "")">
-                <a class="page-link" asp-area="Admin" asp-page="/Sneakers/Index" asp-route-pageNo="@num">@num</a></li>
-        }
-        <li class="page-item @(Model.Sneaker.CurrentPage==Model.Sneaker.TotalPages ? "disabled" : "active")">
-            <a class="page-link" asp-area="Admin" asp-page="/Sneaker/Index" asp-route-pageNo="@next">&raquo;</a>
-        </li>
-    </ul>
-</nav>
-
-<style>
-    td img {
-        height: 200px;
-        object-fit: contain;
-    }
-
-    .page-item.active .page-link {
-        background-color: cornflowerblue;
-        border-color: cornflowerblue;
-    }
-
-    .page-link {
-        color: cornflowerblue;
-    }
-</style>
+<pager current-page="@currentPage" total-pages="@totalPages" admin="true"></pager>
