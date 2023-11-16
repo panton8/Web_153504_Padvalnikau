@@ -47,21 +47,49 @@ public class ProductService : IProductService
 
     public Task<ResponseData<ListModel<Sneaker>>> GetSneakerListAsync(string? categoryNormalizedName, int pageNo = 1, int pageSize = 3)
     {
+        if (pageNo < 1)
+        {
+            return Task.FromResult(
+                new ResponseData<ListModel<Sneaker>>()
+                {
+                    Data = null,
+                    Success = false,
+                    ErrorMessage = "No such page"
+                }
+            );
+        }
+
         var data = new ListModel<Sneaker>();
         Category? category = _context.Categories.FirstOrDefault(c => c.NormalizedName.Equals(categoryNormalizedName));
+    
         var neededSneakers = _context.Sneakers
-             .Where(p => categoryNormalizedName == null || p.CategoryId == category.Id)
-             .ToList();
+            .Where(p => categoryNormalizedName == null || p.CategoryId == category.Id)
+            .ToList();
+        var totalPages = ComputeTotalPages(neededSneakers.Count, pageSize);
+
+        if (pageNo > totalPages)
+        {
+            return Task.FromResult(
+                new ResponseData<ListModel<Sneaker>>()
+                {
+                    Success = false,
+                    ErrorMessage = "Page number must be less than total number of pages"
+                }
+            );
+        }
+
         data.Items = neededSneakers
-             .Skip((pageNo - 1) * pageSize)
-             .Take(pageSize)
-             .ToList();
-        data.TotalPages = ComputeTotalPages(neededSneakers.Count, pageSize);
+            .Skip((pageNo - 1) * pageSize)
+            .Take(pageSize)
+            .ToList();
+
+        data.TotalPages = totalPages;
         data.CurrentPage = pageNo;
 
         return Task.FromResult(
             new ResponseData<ListModel<Sneaker>>()
             {
+                Success = true,
                 Data = data
             }
         );

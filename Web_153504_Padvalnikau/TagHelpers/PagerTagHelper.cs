@@ -53,7 +53,7 @@ public class PagerTagHelper : TagHelper
             }
             else
             {
-                li.AddCssClass("disabled"); // Добавляем класс "disabled" для отключенных кнопок
+                li.AddCssClass("disabled"); // "disabled" для отключенных кнопок
             }
 
             a.InnerHtml.AppendHtml(value != null ? value : i.ToString());

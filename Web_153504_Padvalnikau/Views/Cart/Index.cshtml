@@ -1,0 +1,49 @@
+@model Cart
+
+@{
+    ViewBag.Title = "Cart";
+    var request = ViewContext.HttpContext.Request;
+    var returnUrl = request.Path + request.QueryString.ToUriComponent();
+}
+
+<h2>Your Cart @(Model.CartItems.Count == 0 ? " is empty" : ":")</h2>
+<table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+        <th>Photo</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th class="text-right">Price</th>
+        <th>Quantity</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model?.CartItems)
+    {
+        <tr style="height:auto">
+            <td>
+                <img class="card-img-top" style="width: 100%; height:auto; max-height: 200px; object-fit: cover;" src="@item.Value.Sneaker.Image" alt="item.Name">
+            </td>
+                  <td class="text-left">@item.Value?.Sneaker?.Name</td>
+            <td class="text-left">@item.Value?.Sneaker?.Description</td>
+            <td class="text-right">@item.Value?.Sneaker?.Price.ToString()$</td>
+            <td class="text-center">@item.Value?.Quantity</td>
+           <td>
+                               <a class="btn btn-danger"
+                                  asp-controller="cart"
+                                  asp-action="RemoveItem"
+                                  asp-route-id="@item.Value.Sneaker.Id"
+                                  asp-route-redirectUrl="@returnUrl">
+                                   <i class="fa fa-trash"></i>
+                               </a>
+                           </td>
+        </tr>
+    }
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="3" class="text-right">Order price:</td>
+        <td class="text-right">@Model?.TotalPrice</td>
+    </tr>
+    </tfoot>
+</table>

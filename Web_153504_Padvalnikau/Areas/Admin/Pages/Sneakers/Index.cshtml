@@ -5,6 +5,7 @@
     ViewData["Title"] = "Index";
     int currentPage = Model.Sneaker.CurrentPage;
     int totalPages = Model.Sneaker.TotalPages;
+    bool admin = true;
     
     int prev = Model.Sneaker.CurrentPage == 1 ? 1 : Model.Sneaker.CurrentPage - 1;
     int next = Model.Sneaker.CurrentPage == Model.Sneaker.TotalPages ? Model.Sneaker.TotalPages : Model.Sneaker.CurrentPage + 1;
@@ -67,4 +68,4 @@
     </tbody>
 </table>
 
-<pager current-page="@currentPage" total-pages="@totalPages" admin="true"></pager>
+<pager current-page="@currentPage" total-pages="@totalPages" admin=@admin></pager>

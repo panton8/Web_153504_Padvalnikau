@@ -1,6 +1,9 @@
 using Web_153504_Padvalnikau.Models;
+using Web_153504_Padvalnikau.Domain.Entities;
+using Web_153504_Padvalnikau.Services;
 using Web_153504_Padvalnikau.Services.CategoryService;
 using Web_153504_Padvalnikau.Services.ProductService;
+using Web_153504_Padvalnikau.TagHelpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,8 +13,19 @@ UriData? uriData = builder.Configuration.GetSection("UriData").Get<UriData>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient<IProductService, ApiProductService>(opt => opt.BaseAddress = new Uri(uriData.ApiUri));
-builder.Services.AddScoped<ICategoryService, MemoryCategoryService>();
+
 builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddScoped<ICategoryService, MemoryCategoryService>();
+builder.Services.AddScoped(SessionCart.GetCart);
+builder.Services.AddScoped<PagerTagHelper>();
+
+
+// add session
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
+
+
 builder.Services.AddAuthentication(opt =>
     {
         opt.DefaultScheme = "cookie";
@@ -48,6 +62,8 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection().UseStaticFiles().UseRouting();
+
+app.UseSession();
 
 app.UseAuthentication();
 app.UseAuthorization();

@@ -17,21 +17,27 @@ public class ProductController : Controller
         _category = categoryService;
     }
 
+    [Route("Catalog/{category?}")]
     public async Task<IActionResult> Index(string? category, int pageNo = 1)
     {
-        
+
         ViewBag.CurrentCategory = category;
 
         var sneakerResponse = await _service.GetSneakerListAsync(category, pageNo);
 
         if (!sneakerResponse.Success)
             return NotFound(sneakerResponse.ErrorMessage);
-        
-        ViewBag.Categories = (await _category.GetCategoryListAsync()).Data;
+
+        var categoryResponse = await _category.GetCategoryListAsync();
+
+        if (!categoryResponse.Success)
+            return NotFound(categoryResponse.ErrorMessage);
+
+        ViewBag.Categories = categoryResponse.Data;
 
         string s = Request.Headers["x-requested-with"].ToString();
 
-        if (Request.IsAjaxRequest())
+        if (Request is not null && Request.IsAjaxRequest())
             return PartialView(sneakerResponse.Data);
         else
         {

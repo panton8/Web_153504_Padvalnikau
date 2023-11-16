@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_153504_Padvalnikau.API"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_153504_Padvalnikau.IdentityServer", "Web_153504_Padvalnikau.IdentityServer\Web_153504_Padvalnikau.IdentityServer.csproj", "{CFB2F54D-FE55-46D9-B5B3-7BFA88518861}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_153504_Padvalnikau.Tests.", "Web_153504_Padvalnikau.Tests\Web_153504_Padvalnikau.Tests..csproj", "{7B82ADD9-AB82-4C10-ACA8-8BCBC0A09966}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{CFB2F54D-FE55-46D9-B5B3-7BFA88518861}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFB2F54D-FE55-46D9-B5B3-7BFA88518861}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFB2F54D-FE55-46D9-B5B3-7BFA88518861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B82ADD9-AB82-4C10-ACA8-8BCBC0A09966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B82ADD9-AB82-4C10-ACA8-8BCBC0A09966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B82ADD9-AB82-4C10-ACA8-8BCBC0A09966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B82ADD9-AB82-4C10-ACA8-8BCBC0A09966}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

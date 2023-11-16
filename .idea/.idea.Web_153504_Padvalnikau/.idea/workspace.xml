@@ -15,28 +15,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="821c8228-18b5-48b0-8906-e8538dba1cbe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Web_153504_Padvalnikau/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Web_153504_Padvalnikau/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Web_153504_Padvalnikau/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/MenuDb.db-shm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/MenuDb.db-wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/Images/13b5b4f7-4cd2-4d23-b699-76cbf3531a27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/Extensions/HttpRequsetExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/TagHelpers/PagerTagHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/Views/Shared/_CatalogPartial.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/MenuDb.db" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/MenuDb.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Web_153504_Padvalnikau/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Web_153504_Padvalnikau/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/MenuDb.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/MenuDb.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/Services/ProductService/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/Services/ProductService/ProductService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/bin/Debug/net7.0/Web_153504_Padvalnikau.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/bin/Debug/net7.0/Web_153504_Padvalnikau.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/bin/Debug/net7.0/Web_153504_Padvalnikau.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/bin/Debug/net7.0/Web_153504_Padvalnikau.API.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/bin/Debug/net7.0/Web_153504_Padvalnikau.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/bin/Debug/net7.0/Web_153504_Padvalnikau.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/bin/Debug/net7.0/Web_153504_Padvalnikau.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/bin/Debug/net7.0/Web_153504_Padvalnikau.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/bin/Debug/net7.0/Web_153504_Padvalnikau.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/bin/Debug/net7.0/Web_153504_Padvalnikau.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/bin/Debug/net7.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/Debug/net7.0/Web_153504_Padvalnikau.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/Debug/net7.0/Web_153504_Padvalnikau.API.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/Debug/net7.0/Web_153504_Padvalnikau.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/Debug/net7.0/Web_153504_Padvalnikau.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/Debug/net7.0/Web_153504_Padvalnikau.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/Debug/net7.0/Web_153504_Padvalnikau.API.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/Debug/net7.0/Web_153504_Padvalnikau.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/Debug/net7.0/Web_153504_Padvalnikau.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/Debug/net7.0/Web_153504_Padvalnikau.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/Debug/net7.0/Web_153504_Padvalnikau.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/Debug/net7.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.API/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/bin/Debug/net7.0/Web_153504_Padvalnikau.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/bin/Debug/net7.0/Web_153504_Padvalnikau.Domain.dll" afterDir="false" />
@@ -44,43 +35,33 @@
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/obj/Debug/net7.0/Web_153504_Padvalnikau.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/obj/Debug/net7.0/Web_153504_Padvalnikau.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/obj/Debug/net7.0/Web_153504_Padvalnikau.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/obj/Debug/net7.0/Web_153504_Padvalnikau.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/obj/Debug/net7.0/Web_153504_Padvalnikau.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/obj/Debug/net7.0/Web_153504_Padvalnikau.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/obj/Debug/net7.0/ref/Web_153504_Padvalnikau.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/obj/Debug/net7.0/ref/Web_153504_Padvalnikau.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/obj/Debug/net7.0/refint/Web_153504_Padvalnikau.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/obj/Debug/net7.0/refint/Web_153504_Padvalnikau.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/AspIdUsers.db" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/AspIdUsers.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/Config.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/Config.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/bin/Debug/net6.0/Web_153504_Padvalnikau.IdentityServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/bin/Debug/net6.0/Web_153504_Padvalnikau.IdentityServer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/bin/Debug/net6.0/Web_153504_Padvalnikau.IdentityServer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/bin/Debug/net6.0/Web_153504_Padvalnikau.IdentityServer.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/bin/Debug/net6.0/Web_153504_Padvalnikau.IdentityServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/bin/Debug/net6.0/Web_153504_Padvalnikau.IdentityServer.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/obj/Debug/net6.0/Web_153504_Padvalnikau.IdentityServer.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/obj/Debug/net6.0/Web_153504_Padvalnikau.IdentityServer.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/obj/Debug/net6.0/Web_153504_Padvalnikau.IdentityServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/obj/Debug/net6.0/Web_153504_Padvalnikau.IdentityServer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/obj/Debug/net6.0/Web_153504_Padvalnikau.IdentityServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/obj/Debug/net6.0/Web_153504_Padvalnikau.IdentityServer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/obj/Debug/net6.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.IdentityServer/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/Areas/Admin/Pages/Sneakers/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/Areas/Admin/Pages/Sneakers/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/Areas/Admin/Pages/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/Areas/Admin/Pages/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/Components/Cart.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/Controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/TagHelpers/PagerTagHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/TagHelpers/PagerTagHelper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/Views/Product/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/Views/Product/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/Views/Shared/_UserInfoPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/Views/Shared/_UserInfoPartial.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/Views/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/Views/Shared/Components/Cart/Default.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/Views/Shared/Components/Cart/Default.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/Views/Shared/_CatalogPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/Views/Shared/_CatalogPartial.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.API.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/Web_153504_Padvalnikau.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/bin/Debug/net7.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/Web_153504_Padvalnikau.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/Web_153504_Padvalnikau.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/Web_153504_Padvalnikau.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/Web_153504_Padvalnikau.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/Web_153504_Padvalnikau.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/Web_153504_Padvalnikau.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/Web_153504_Padvalnikau.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/Web_153504_Padvalnikau.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/Web_153504_Padvalnikau.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/Web_153504_Padvalnikau.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/ref/Web_153504_Padvalnikau.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/ref/Web_153504_Padvalnikau.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/refint/Web_153504_Padvalnikau.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/Debug/net7.0/refint/Web_153504_Padvalnikau.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Web_153504_Padvalnikau/obj/rider.project.model.nuget.info" afterDir="false" />
@@ -109,6 +90,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/53581c25dbafcc363ace2a18ca8cb1be474f8e8b4187c320af6725d046cfb4/RazorPage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/92d2d5c90ec4d672fad70ed7a6fcc1eb1dc9d2ae10566236ace4266c2945b9/FromServicesAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a6c1c725bda61664ef57f24a5c8957b67d87d6ecf9e978bdd4de9fffb57f6/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a81ee8c4b239a5f464b996b6cb5ab701e2bca7511eb164cb746c7590c3b6b1/Mock`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c04ee1b3f4a1db787253df6ff028ffc1f4e4eac358d6483ce12c8215288d14/ViewDataDictionaryOfT.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dac3a3e3f8d94c928256dd28a8bb973ce5ffda8aef0fa63df145d8cecd035/RazorPageBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Telegram Desktop/CarModelController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Telegram Desktop/SeedData.cs" root0="SKIP_HIGHLIGHTING" />
@@ -131,7 +114,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Merging main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab8&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -358,7 +341,13 @@
       <workItem from="1698872046677" duration="5317000" />
       <workItem from="1698940080830" duration="470000" />
       <workItem from="1698958677131" duration="4895000" />
-      <workItem from="1698994309559" duration="584000" />
+      <workItem from="1698994309559" duration="803000" />
+      <workItem from="1698997728459" duration="2139000" />
+      <workItem from="1699115179395" duration="5807000" />
+      <workItem from="1699366090861" duration="4480000" />
+      <workItem from="1699618716135" duration="85000" />
+      <workItem from="1699704372370" duration="9184000" />
+      <workItem from="1700032384366" duration="1156000" />
     </task>
     <servers />
   </component>

@@ -4,9 +4,7 @@
 // Write your JavaScript code.
 
 $('.async-request').on("click", function (e) {
-
     //e.preventDefault();
-
     let url = this.attributes['href'].value;
 
     $('#container').load(url);
