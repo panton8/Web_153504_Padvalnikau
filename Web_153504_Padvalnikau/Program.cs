@@ -1,5 +1,7 @@
+using Serilog;
 using Web_153504_Padvalnikau.Models;
 using Web_153504_Padvalnikau.Domain.Entities;
+using Web_153504_Padvalnikau.Extensions;
 using Web_153504_Padvalnikau.Services;
 using Web_153504_Padvalnikau.Services.CategoryService;
 using Web_153504_Padvalnikau.Services.ProductService;
@@ -12,6 +14,18 @@ UriData? uriData = builder.Configuration.GetSection("UriData").Get<UriData>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// подтягиваем настройки  
+var configuration = new ConfigurationBuilder()
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json")
+    .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Production"}.json", true)
+    .Build();
+
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(configuration)
+    .CreateLogger();
+
 builder.Services.AddHttpClient<IProductService, ApiProductService>(opt => opt.BaseAddress = new Uri(uriData.ApiUri));
 
 builder.Services.AddHttpContextAccessor();
@@ -62,6 +76,8 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection().UseStaticFiles().UseRouting();
+
+app.UseLogging();
 
 app.UseSession();
 

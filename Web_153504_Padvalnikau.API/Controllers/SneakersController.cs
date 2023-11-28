@@ -8,6 +8,7 @@ namespace Web_153504_Padvalnikau.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class SneakersController : ControllerBase
     {
         private readonly IProductService _sneakersService;

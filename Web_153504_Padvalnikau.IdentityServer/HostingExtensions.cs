@@ -61,18 +61,28 @@ internal static class HostingExtensions
     public static WebApplication ConfigurePipeline(this WebApplication app)
     {
         app.UseSerilogRequestLogging();
-
+    
         if (app.Environment.IsDevelopment())
         {
             app.UseDeveloperExceptionPage();
         }
+
+        app.UseCors(cors =>
+        {
+            cors.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+          
+        });
 
         app.UseStaticFiles();
         app.UseRouting();
         app.UseIdentityServer();
         app.UseAuthentication();
         app.UseAuthorization();
+
         app.MapControllers();
+        
         app.MapRazorPages()
             .RequireAuthorization();
 
